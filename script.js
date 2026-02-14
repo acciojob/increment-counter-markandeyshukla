@@ -1,6 +1,6 @@
 let input=document.getElementById("incrementBtn");
 let counter=document.getElementById("counter")
-input.value=50;
+input.value=0;
 function count(){
 	alert(input.value);
 	input.value++;
